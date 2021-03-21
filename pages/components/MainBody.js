@@ -8,8 +8,8 @@ export default function MainBody() {
                 <p className={styles.paragraph}>
                     Gerencie seu tempo de aula de maneira prática e cuide da sua saúde mental e emocional. Você nos diz seus horários e nós cuidamos do resto.
                 </p>
-                <button className={styles.loginButton}>Login</button>
-                <button className={styles.signupButton}>Cadastre-se</button>
+                <button className={styles.loginButton}><a href="/accounts/login">Login</a></button>
+                <button className={styles.signupButton}><a>Cadastre-se</a></button>
             </div>
             <div className={styles.imageContainer} />
         </div>
