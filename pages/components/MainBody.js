@@ -1,6 +1,6 @@
 import styles from "../../styles/MainBody.module.css";
 
-export function MainBody() {
+export default function MainBody() {
     return (
         <div className={styles.bodyContainer}>
             <div>

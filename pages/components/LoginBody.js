@@ -1,4 +1,4 @@
-export function LoginBody() {
+export default function LoginBody() {
     return (
         <div>
 
