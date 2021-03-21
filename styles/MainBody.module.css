@@ -1,0 +1,49 @@
+.paragraph,
+.mainTitle {
+    width: 70%;
+}
+
+.bodyContainer {
+    display: flex;
+    align-items: center;
+}
+
+.mainTitle {
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.paragraph {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.imageContainer {
+    width: 50rem;
+    height: 30rem;
+    border-radius: 15% 0 0 0;
+    background: 0%/25rem url("https://images.unsplash.com/photo-1521649415036-659258dc424f") no-repeat;
+}
+
+.signupButton,
+.loginButton {
+    height: 3rem;
+    color: #f2f3f5;
+    border: none;
+    border-radius: .2rem;
+    font-size: 1.4rem;
+
+    margin-top: 2rem;
+}
+
+.loginButton {
+    background: #4B70EB;
+    width: 15%;
+    margin-right: .5rem;
+}
+
+.signupButton {
+    background: #424C6B;
+    width: 30%;
+}
