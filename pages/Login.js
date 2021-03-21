@@ -1,10 +1,9 @@
 import Head from "next/head";
-import {MainBody} from "../components/MainBody";
 
 import styles from "../styles/Home.module.css";
-import {Header} from "../components/Header";
+import { Header } from "../components/Header";
 
-export default function Home() {
+export default function Login() {
   return (
     <div className={styles.container}>
       <Head>
@@ -15,7 +14,6 @@ export default function Home() {
       <Header />
 
       <main className={styles.main}>
-        <MainBody />
       </main>
 
       <footer className={styles.footer}>
