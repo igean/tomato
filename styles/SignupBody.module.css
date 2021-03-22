@@ -1,9 +1,9 @@
-.loginCotainer {
+.signupCotainer {
     width: 100vw;
     display: flex;
 }
 
-.loginImgContainer {
+.signupImgContainer {
     width: 50%;
     height: 100vh;
     position: fixed;
@@ -16,7 +16,7 @@
     font-size: 2rem;
     position: absolute;
     left: 60%;
-    top: 20%;
+    top: 10%;
     width: 40%;
     height: 80%;
 
@@ -63,4 +63,6 @@
 
     border: none;
     border-radius: 5px;
+
+    margin-bottom: 5rem;
 }
