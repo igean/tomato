@@ -1,0 +1,68 @@
+.loginCotainer {
+    width: 100vw;
+    display: flex;
+}
+
+.loginImgContainer {
+    width: 50%;
+    height: 100vh;
+    position: fixed;
+    background: 0%/70vw url("https://images.unsplash.com/photo-1492138786289-d35ea832da43") no-repeat;
+    left: 0;
+    top: 0;
+
+    border-radius: 0 3% 3% 0;
+}
+
+.formContainer {
+    font-size: 2rem;
+    position: absolute;
+    left: 60%;
+    top: 20%;
+    width: 40%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.formContainer strong {
+    margin-bottom: 2rem;
+}
+
+.formContainer > form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formContainer label {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.formContainer input {
+    width: 80%;
+    height: 3rem;
+    font-size: 1.4rem;
+
+    border: 1px solid #22336B;
+    border-radius: 10px;
+
+    display: flex;
+    align-content: center;
+}
+
+.formContainer button {
+    width: 80%;
+    height: 3rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+
+    background: #3B58B8;
+    color: #fff;
+
+    border: none;
+    border-radius: 5px;
+}

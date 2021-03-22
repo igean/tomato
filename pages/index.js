@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Tomato - Mental Health</title>
+        <title>Tomato - Mental Education</title>
         <link rel="icon" href="/logo.svg" />
       </Head>
 

@@ -1,20 +1,26 @@
+import styles from "../../styles/LoginBody.module.css"
+
 export default function LoginBody() {
     return (
-        <div>
+        <div class={styles.loginContainer}>
 
-            <div />
+            <div
+                className={styles.loginImgContainer}
+            />
 
-            <div>
+            <div className={styles.formContainer}>
                 <strong>Login</strong>
                 <form>
                     <label>
                         Email:
-                    <input type="text" />
+                    <input type="email" />
                     </label>
                     <label>
-                        Email:
+                        Senha:
                     <input type="password" />
                     </label>
+
+                    <button><a href="/user/dash">Entrar</a></button>
                 </form>
             </div>
 

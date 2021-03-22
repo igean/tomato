@@ -4,7 +4,7 @@ export default function MainBody() {
     return (
         <div className={styles.bodyContainer}>
             <div>
-                <h1 className={styles.mainTitle}>Mental Health</h1>
+                <h1 className={styles.mainTitle}>Tomato<br/>Mental Education</h1>
                 <p className={styles.paragraph}>
                     Gerencie seu tempo de aula de maneira prática e cuide da sua saúde mental e emocional. Você nos diz seus horários e nós cuidamos do resto.
                 </p>
